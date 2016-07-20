@@ -8,6 +8,13 @@
 
 import Foundation
 
+/*
+ * Thanks to Martin R for this awsome StreamReader
+ * http://stackoverflow.com/questions/24581517/read-a-file-url-line-by-line-in-swift/24648951#24648951 
+ * https://gist.github.com/klaas/4691612802f540b6a9c5
+ *
+ */
+
 class PHXLStreamReader {
     
     private let chunkSize: Int = 4096
@@ -34,7 +41,6 @@ class PHXLStreamReader {
     }
     
     deinit {
-        print("Stream Reader is deinit")
         self.close()
     }
     

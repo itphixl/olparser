@@ -683,6 +683,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="StartParsingButtonDidClicked:" target="XfG-lQ-9wD" id="EpW-9x-amX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>

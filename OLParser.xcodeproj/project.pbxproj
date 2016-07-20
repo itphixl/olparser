@@ -13,6 +13,14 @@
 		F9C0EDA71D3FAA2600EB1A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C0EDA51D3FAA2600EB1A36 /* Main.storyboard */; };
 		F9C0EDB21D3FAA2700EB1A36 /* OLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDB11D3FAA2700EB1A36 /* OLParserTests.swift */; };
 		F9C0EDBD1D3FAA2700EB1A36 /* OLParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDBC1D3FAA2700EB1A36 /* OLParserUITests.swift */; };
+		F9C0EDD11D3FB04A00EB1A36 /* OLCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDD01D3FB04A00EB1A36 /* OLCommons.swift */; };
+		F9C0EDD61D3FB06300EB1A36 /* OLAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDD31D3FB06300EB1A36 /* OLAuthor.swift */; };
+		F9C0EDD71D3FB06300EB1A36 /* OLBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDD41D3FB06300EB1A36 /* OLBook.swift */; };
+		F9C0EDD81D3FB06300EB1A36 /* OLPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDD51D3FB06300EB1A36 /* OLPublisher.swift */; };
+		F9C0EDDB1D3FB08200EB1A36 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDDA1D3FB08200EB1A36 /* Utils.swift */; };
+		F9C0EDDF1D3FB0AF00EB1A36 /* PHXLStreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDDD1D3FB0AF00EB1A36 /* PHXLStreamReader.swift */; };
+		F9C0EDE01D3FB0AF00EB1A36 /* PHXLStreamWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDDE1D3FB0AF00EB1A36 /* PHXLStreamWriter.swift */; };
+		F9C0EDE21D3FB0B900EB1A36 /* OLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0EDE11D3FB0B900EB1A36 /* OLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		F9C0EDB81D3FAA2700EB1A36 /* OLParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C0EDBC1D3FAA2700EB1A36 /* OLParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLParserUITests.swift; sourceTree = "<group>"; };
 		F9C0EDBE1D3FAA2700EB1A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C0EDD01D3FB04A00EB1A36 /* OLCommons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLCommons.swift; sourceTree = "<group>"; };
+		F9C0EDD31D3FB06300EB1A36 /* OLAuthor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLAuthor.swift; sourceTree = "<group>"; };
+		F9C0EDD41D3FB06300EB1A36 /* OLBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLBook.swift; sourceTree = "<group>"; };
+		F9C0EDD51D3FB06300EB1A36 /* OLPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLPublisher.swift; sourceTree = "<group>"; };
+		F9C0EDDA1D3FB08200EB1A36 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F9C0EDDD1D3FB0AF00EB1A36 /* PHXLStreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHXLStreamReader.swift; sourceTree = "<group>"; };
+		F9C0EDDE1D3FB0AF00EB1A36 /* PHXLStreamWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHXLStreamWriter.swift; sourceTree = "<group>"; };
+		F9C0EDE11D3FB0B900EB1A36 /* OLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +111,13 @@
 		F9C0ED9E1D3FAA2600EB1A36 /* OLParser */ = {
 			isa = PBXGroup;
 			children = (
-				F9C0ED9F1D3FAA2600EB1A36 /* AppDelegate.swift */,
+				F9C0EDCF1D3FB04100EB1A36 /* Commons */,
+				F9C0EDD21D3FB05500EB1A36 /* Entities */,
+				F9C0EDD91D3FB07300EB1A36 /* Utils */,
+				F9C0EDDC1D3FB0A200EB1A36 /* Streamer */,
+				F9C0EDE11D3FB0B900EB1A36 /* OLParser.swift */,
 				F9C0EDA11D3FAA2600EB1A36 /* ViewController.swift */,
+				F9C0ED9F1D3FAA2600EB1A36 /* AppDelegate.swift */,
 				F9C0EDA31D3FAA2600EB1A36 /* Assets.xcassets */,
 				F9C0EDA51D3FAA2600EB1A36 /* Main.storyboard */,
 				F9C0EDA81D3FAA2600EB1A36 /* Info.plist */,
@@ -120,6 +141,41 @@
 				F9C0EDBE1D3FAA2700EB1A36 /* Info.plist */,
 			);
 			path = OLParserUITests;
+			sourceTree = "<group>";
+		};
+		F9C0EDCF1D3FB04100EB1A36 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0EDD01D3FB04A00EB1A36 /* OLCommons.swift */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		F9C0EDD21D3FB05500EB1A36 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0EDD31D3FB06300EB1A36 /* OLAuthor.swift */,
+				F9C0EDD41D3FB06300EB1A36 /* OLBook.swift */,
+				F9C0EDD51D3FB06300EB1A36 /* OLPublisher.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		F9C0EDD91D3FB07300EB1A36 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0EDDA1D3FB08200EB1A36 /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F9C0EDDC1D3FB0A200EB1A36 /* Streamer */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0EDDD1D3FB0AF00EB1A36 /* PHXLStreamReader.swift */,
+				F9C0EDDE1D3FB0AF00EB1A36 /* PHXLStreamWriter.swift */,
+			);
+			name = Streamer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C0EDD71D3FB06300EB1A36 /* OLBook.swift in Sources */,
+				F9C0EDD81D3FB06300EB1A36 /* OLPublisher.swift in Sources */,
+				F9C0EDE01D3FB0AF00EB1A36 /* PHXLStreamWriter.swift in Sources */,
+				F9C0EDE21D3FB0B900EB1A36 /* OLParser.swift in Sources */,
 				F9C0EDA21D3FAA2600EB1A36 /* ViewController.swift in Sources */,
+				F9C0EDDB1D3FB08200EB1A36 /* Utils.swift in Sources */,
+				F9C0EDDF1D3FB0AF00EB1A36 /* PHXLStreamReader.swift in Sources */,
+				F9C0EDD11D3FB04A00EB1A36 /* OLCommons.swift in Sources */,
 				F9C0EDA01D3FAA2600EB1A36 /* AppDelegate.swift in Sources */,
+				F9C0EDD61D3FB06300EB1A36 /* OLAuthor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
